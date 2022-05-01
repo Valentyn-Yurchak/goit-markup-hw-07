@@ -1,0 +1,30 @@
+body {
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+// УБИРАЕТ ТОЧКИ В СПИСКЕ
+.list {
+  list-style: none;
+  font-style: normal;
+}
+
+// УБИРАЕТ ПОДЧЁРКИВАНИЕ ССЫЛОК, МЕНЯЕТ ЦВЕТ ПРИ ХОВЕРЕ И ФОКУСЕ
+.link {
+  text-decoration: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover, &:focus {
+    color: var(--link-color);
+  }
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #212121;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+}

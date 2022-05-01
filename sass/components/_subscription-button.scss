@@ -1,0 +1,22 @@
+.subscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription__text {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto";
+    letter-spacing: 0.06em;
+    color: var(--fon-color);
+    margin-right: 10px;
+}
+
+.subscription__icon{
+    border: none;
+    background-image: url(../images/subscription-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

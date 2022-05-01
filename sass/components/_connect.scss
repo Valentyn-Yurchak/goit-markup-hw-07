@@ -1,0 +1,23 @@
+.connect, .connect__list {
+    display: flex;
+    align-items: center;
+}
+
+.connect__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.connect__link {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.connect__mail-icon, 
+.connect__tel-icon {
+    margin-right: 10px;
+    fill: currentColor;
+}

@@ -1,0 +1,24 @@
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: "Raleway";
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.logo__item {
+    margin-right: 93px;
+}
+
+.logo__link {
+    color: #212121;
+    text-decoration: none;
+}
+
+.logo__web {
+    color: var(--link-color);
+}
+
+.logo__studio {
+    color: var(--fon-color);
+}

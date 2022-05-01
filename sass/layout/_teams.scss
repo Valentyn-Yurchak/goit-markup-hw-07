@@ -1,0 +1,37 @@
+.teams {
+    background-color: var(--team-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.teams-list {
+    display: flex;
+}
+
+.teams-list__item {
+    background-color: var(--fon-color);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.14),
+    0 1px 3px rgba(0, 0, 0, 0.12);
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.teams-list__property {
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    color: #212121;
+    line-height: 1.17;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.teams-list__text {
+    letter-spacing: 0.03em;
+    color: #757575;
+    line-height: 1.71;
+    text-align: center;
+    padding-bottom: 16px;
+}
