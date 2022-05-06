@@ -5,6 +5,15 @@
     border-bottom: 1px solid #ececec;
 }
 
+.header-container__link {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #212121;
+        padding-bottom: 5px;
+        padding-top: 5px;
+}
+
 .current {
     color: var(--link-color);
     position: relative;
@@ -31,13 +40,4 @@
 
 .header-container__item:not(:last-child) {
     margin-right: 50px;
-}
-
-.header-container__link {
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    color: #212121;
-        padding-bottom: 5px;
-        padding-top: 5px;
 }

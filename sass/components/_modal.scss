@@ -79,13 +79,13 @@
     &:hover, &:focus {
         border: 1px solid var(--link-color);
     }
-    &:hover + .input-icon {
+    &:hover + .modal__icon {
         fill: var(--link-color);
     }
-    &:focus + .input-icon {
+    &:focus + .modal__icon {
         fill: var(--link-color);
     }
-}
+}    
 
 .modal__textarea {
     margin-bottom: 20px;
@@ -111,7 +111,7 @@
 
 .modal__policy-check {
     display: none;
-    &:checked + .check-text::before {
+    &:checked + .modal__check-text::before {
         border: none;
         background-image: url(../images/icon-check.svg);
         background-repeat: no-repeat;
@@ -142,6 +142,7 @@
 
 .modal__policy-link {
     margin-left: 7px;
+    color: var(--link-color);
 }
 
 .modal__send-btn {

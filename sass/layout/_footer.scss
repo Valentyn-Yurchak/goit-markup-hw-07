@@ -6,6 +6,7 @@
 
 .footer-container {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-contact {
@@ -52,7 +53,6 @@
     font-size: 14px;
     color: var(--fon-color);
     margin-bottom: 20px;
-    margin-top: 12px;
 }
 
 .footer__wrap {
