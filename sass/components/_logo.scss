@@ -11,14 +11,14 @@
 }
 
 .logo__link {
-    color: #212121;
+    color: var(--link-color);
     text-decoration: none;
 }
 
-.logo__web {
-    color: var(--link-color);
+.logo__header {
+    color: #212121
 }
 
-.logo__studio {
+.logo__footer {
     color: var(--fon-color);
 }
